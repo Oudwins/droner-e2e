@@ -1,4 +1,4 @@
-# Droner GitHub E2E sandbox — base-update-rebase-live-20260912
+# Droner GitHub E2E sandbox
 
 A small, independent repository for testing Droner's integration with real
 GitHub branches, pull requests, and CI checks.
