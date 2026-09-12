@@ -1,1 +1,2 @@
 Main branch requirement: preserve the base branch behavior.
+Feature branch requirement: preserve the feature branch behavior.
