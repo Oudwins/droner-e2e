@@ -1,0 +1,20 @@
+name: Fixture
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  fixture:
+    name: Fixture
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check fixture
+        shell: bash
+        run: diff -u <(printf 'pass\n') fixture.txt
