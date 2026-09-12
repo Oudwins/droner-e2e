@@ -1,1 +1,2 @@
 Main branch requirement: preserve the base branch behavior.
+Retry feature requirement: preserve the second feature behavior.
